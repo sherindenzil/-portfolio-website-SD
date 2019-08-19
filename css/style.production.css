@@ -64,12 +64,17 @@ table {
 
 .gitbutton {
   float: left;
-  margin-left: 500px;
+  margin-left: 450px;
 }
 
-.gifimage {
+div.gifimage {
   margin-top: 10px;
-  margin-left: 300px;
+
+  /* margin-left: 300px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 button {
