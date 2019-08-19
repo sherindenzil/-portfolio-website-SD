@@ -246,7 +246,7 @@ button:focus,
   opacity: 0.8;
 }
 
-@keyframes color-change {
+/* @keyframes color-change {
   0% {
     fill: #edc655;
   }
@@ -290,4 +290,4 @@ button:focus,
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
-}
+} */
