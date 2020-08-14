@@ -137,7 +137,7 @@ button:focus {
   flex-direction: column;
   text-align: center;
   position: -webkit-sticky;
-  position: sticky;
+  position: absolute;
   height: 90px;
   width: 100%;
   bottom: 0;
