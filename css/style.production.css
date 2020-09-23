@@ -106,10 +106,16 @@ button:focus {
   border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
 .project-img {
-  width: 400px;
+  width: 300px;
 }
 .project-img:hover {
   width: 500px;
+}
+.homescreen-img {
+  height: 300px;
+}
+.homescreen-img:hover {
+  height: 500px;
 }
 
 .profile__portrait {
@@ -137,7 +143,6 @@ button:focus {
   flex-direction: column;
   text-align: center;
   position: -webkit-sticky;
-  position: absolute;
   height: 90px;
   width: 100%;
   bottom: 0;
@@ -206,6 +211,7 @@ button:focus {
   padding: 5px;
   padding-left: 10px;
   width: auto;
+  height: 300px;
 }
 
 div.grid__item:hover {
@@ -230,7 +236,7 @@ div.grid__item:hover {
 
 @media only screen and (max-width: 1000px) {
   body {
-    background-color: red;
+    background-color: gray;
   }
 
   .gifimage {
