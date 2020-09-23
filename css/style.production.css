@@ -111,6 +111,11 @@ button:focus {
 .project-img:hover {
   width: 500px;
 }
+.project-imge:hover {
+  width: 300px; 
+  height: 450px
+  padding-left: 100px;
+}
 .homescreen-img {
   height: 300px;
 }
@@ -209,14 +214,15 @@ button:focus {
 .grid__item {
   background-color: #e0ebeb;
   padding: 5px;
-  padding-left: 10px;
+  padding-left: 60px;
   width: auto;
-  height: 300px;
+  height: auto;
 }
 
 div.grid__item:hover {
   background-color: #ffb366;
   cursor: pointer;
+  padding-right: 50px;
 }
 
 .grid__item:last-child {
